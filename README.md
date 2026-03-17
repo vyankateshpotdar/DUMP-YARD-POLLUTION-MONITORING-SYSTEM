@@ -1,17 +1,15 @@
-# DUMP YARD POLLUTION MONITORING SYSTEM
+# 🌍 DUMP YARD POLLUTION MONITORING SYSTEM
 
-## Overview
-This project aims to monitor pollution levels in dump yards using various sensors and display the data in real-time.
+A real-time monitoring system to detect pollution spikes in dump yards and alert hostel management using DHT11 sensors, Telegram notifications, and a web dashboard.
 
-## Architecture
-The system consists of:
-- A firmware component for sensor data collection.
-- A backend server for processing and storing data.
-- A web-based dashboard for user interaction.
-- Documentation and hardware schematics.
+## 📋 Features
 
-## Roadmap
-- Phase 1: Initial setup and testing
-- Phase 2: Deployment of sensors
-- Phase 3: Dashboard development
-- Phase 4: Complete documentation
+✅ **Real-time Monitoring** - DHT11 sensor readings every 30 seconds  
+✅ **Automated Alerts** - LED & Buzzer on pollution detection  
+✅ **Telegram Notifications** - Instant alerts to warden  
+✅ **Email Alerts** - HIGH severity alerts via Gmail  
+✅ **Web Dashboard** - Live data visualization  
+✅ **Data Logging** - MongoDB storage for historical analysis  
+✅ **Statistics** - 24-hour trends and averages  
+
+## 🏗️ Architecture
